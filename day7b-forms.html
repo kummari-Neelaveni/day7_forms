@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student details</title>
+</head>
+<body bgcolor="lightseagreen">
+    <center><h4>student registration details</h4></center>
+    <form method="post" action="sucess.html">
+        <label  for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="enter the firstname" required><br>
+        <br>
+      <label for="lname"> Last Name:</label>
+      <input type="text" id="lname" name="lastname" placeholder="enter the lastname"><br><br>
+      <label for="date">Date of Birth:</label>
+      <input type="date" id="date"><br><br>
+      <label for="Email" >Email:</label>
+      <input type="Email" id="Email"placeholder="Enter email">
+      <br><br>
+      <label for="p">Password:</label>
+      <input type="password" id="p" name="password">
+      <br><br>
+      <label for="m">Mobile Number:</label>
+      <input type="number" id="m" name="data"pattern="[0-9]+{10}" title="pleas eneter 0 to 9" placeholder="+91">
+      <br><br>
+      <label for="g" >Gender:</label>
+    
+      <label for="f">female</label>
+      <input type="radio" id="f" name="gender" value="female">
+    
+      <label for="m">Male</label>
+      <input type="radio" id="m" name="gender" value="Male">
+      <br><br>
+      <label for="resume"> upload resume:</label>
+      <input type="file" id="resume"><br><br>
+
+      <label for="t">State:</label>
+      <input type="text" id="t" value="Telangana" >
+      <br><br>
+      <label for="a">address</label>
+      <input type="address" id="a">
+      <br><br>
+      <label for="c">City:</label>
+      <input type="text "id="c" placeholder="enter a city">
+      <br><br>
+      
+      <label for="">Languages known:</label><br><br>
+      <input type="checkbox" name="Telugu" id="" >Telugu <br><br>
+      <input type="checkbox" name="Hindi" id="">Hindi <br><br>
+      <input type="checkbox" name="Telugu" id="">English <br><br>
+      
+      
+      <label for="u">Linkedn url:</label>
+      <input type="url" name="Linkedn url" id="u" > <br><br>
+      
+      <input type ="submit" value="submit">
+
+    </form>
+</body>
+</html>
